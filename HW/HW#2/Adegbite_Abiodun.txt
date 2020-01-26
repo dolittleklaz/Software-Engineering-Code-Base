@@ -1,0 +1,9 @@
+1) select * from saleslt.customer;
+
+2) select firstname, middlename, lastname, emailaddress, phone from saleslt.customer;
+
+3) select name as productname, productID, productnumber, color, size, weight, sellstartdate, listprice, standardcost, listprice - standardcost as profit from saleslt.product;
+
+4) select name as productname, productID, productnumber, color,  size, weight, sellstartdate, listprice, standardcost, sellenddate, listprice - standardcost as profit from saleslt.product;
+
+5) select * from saleslt.salesorderdetail;
